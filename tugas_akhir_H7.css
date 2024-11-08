@@ -1,0 +1,88 @@
+
+.animation[data-v-7a7a37b1]{
+    animation-name: header-7a7a37b1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes header-7a7a37b1 {
+    0%   {color: white;}
+    25%  {color: red;}
+    50%  {color: yellow;}
+    75%  {color: aqua;}
+    100% {color: white;}
+    }
+    body[data-v-7a7a37b1] {
+        padding: 20px;
+        background-color: #f1f1f1;
+    }
+    .content[data-v-7a7a37b1] {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .menu-section[data-v-7a7a37b1] {
+        background-color: #000;
+        color: #fff;
+        padding: 64px 0;
+        text-align: center;
+    }
+    .menu-section h1[data-v-7a7a37b1] {
+        font-size: 64px;
+        margin-bottom: 32px;
+    }
+    .menu-categories[data-v-7a7a37b1] {
+        display: flex;
+        justify-content: space-around;
+        border: 1px solid #333;
+    }
+    .menu-categories a[data-v-7a7a37b1] {
+        flex: 1;
+        padding: 28px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+      font-size:20px;
+        transition: background-color 0.3s;
+    }
+    .menu-categories a[data-v-7a7a37b1]:hover {
+        background-color: #d32f2f;
+    }
+    .menu-categories a[data-v-7a7a37b1]:first-child {
+        background-color: #d32f2f;
+    }
+    .menu-item-section[data-v-7a7a37b1] {
+        background-color: #fff;
+        padding: 32px;
+    }
+    .menu-item-section h1[data-v-7a7a37b1] {
+        font-size: 36px;
+        margin-bottom: 8px;
+    }
+    .menu-item-section p[data-v-7a7a37b1] {
+        color: #777;
+        font-size: 18px;
+    }
+    .menu-item[data-v-7a7a37b1] {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+    .menu-item h1[data-v-7a7a37b1] {
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .menu-item .price[data-v-7a7a37b1], .menu-item .tag[data-v-7a7a37b1] {
+        font-size: 18px;
+        background-color: #333;
+        color: #fff;
+        padding: 8px;
+        border-radius: 4px;
+    }
+    .menu-item .tag.red[data-v-7a7a37b1] {
+        background-color: #d32f2f;
+    }
+    .menu-item hr[data-v-7a7a37b1] {
+        margin: 16px 0;
+        border: none;
+        border-bottom: 1px solid #ccc;
+    }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> js puncak</title>
+</head>
+<body>
+    <div class="container">
+        <nav id="home" class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#java">Java Script</a></li>
+                <li><a href="#lampu">Lampu</a></li>
+                <li><a href="#umur">Umur</a></li>
+                <li><a href="#angka">Tebak Angka</a></li>
+                <li><a href="#kalkulator">Kalkulator</a></li>
+                <li><a href="#temperatur">Temperatur</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="container1">
+        <div id="lampu" class="pembungkus">
+            <img id="urip" src="./aset/lampu hidup.gif" alt="">
+            <button onclick="myFunction()">lampu hidup</button>
+            <img id="mati" src="./aset/lampu mati.gif" alt="">
+        </div>
+        <div class="pembungkus1">
+            <img id="urip" src="./aset/lampu hidup.gif" alt="">
+            <button onclick="myFunction()">lampu hidup</button>
+            <img id="mati" src="./aset/lampu mati.gif" alt="">
+            <button onclick="myFunction()">lampu mati</button>
+        </div>
+    </div>
+
+    <div id="umur" class="umur">
+        <h1 class="check">Check Umur</h1>
+        <form action="submit">
+            <label for="Masukan Umur mu"></label>
+            <input type="text" placeholder="masukan Umur mu">
+            <button type="submit">Check</button>
+        </form>
+    </div>
+    <div id="angka" class="angka">
+        <h1 class="number">Guess The Number (1-10)</h1>
+        <form action="submit">
+            <label for="Enter Your Guess"></label>
+            <input type="text" placeholder="Enter Your Guess">
+            <button type="submit">Guess</button>
+        </form>
+    </div>
+    <div id="kalkulator" class="calcu">
+        <h1 class="lator">Calculator</h1>
+        <form action="submit">
+            <label for="Masukan Angka Pertama"></label>
+            <input type="text" placeholder="Masukan Angka Pertama">
+            <label for="Masukan Angka Kedua"></label>
+            <input type="text" placeholder="Masukan Angka Kedua">
+            <button type="submit">Hitung</button>
+        </form>
+    </div>
+    <div id="temperatur" class="temperatur">
+        <h1 class="converter">Temperature Converter</h1>
+        <input type="number" id="tempValue" placeholder="Enter temperature" /> 
+        <select id="tempUnit"> 
+            <option value="C">Celsius to Fahrenheit</option> 
+      <option value="F">Fahrenheit to Celsius</option> 
+      <option value="R">Celsius to Reamur</option> 
+      <option value="RC">Reamur to Celsius</option> 
+      <option value="K">Celsius to Kelvin</option> 
+      <option value="KC">Kelvin to Celsius</option> 
+    </select> 
+    <button onclick="convertTemperature()">Convert</button> 
+    <p id="tempResult"></p>
+    </div>
+    <script src="./Tugas_puncak.js"></script>
+</body>
+</html>
